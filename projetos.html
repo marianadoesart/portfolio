@@ -1,0 +1,200 @@
+<html>
+<head>
+    
+        <meta charset="utf-8"/> 
+    <title>Mariana Art</title>
+    
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Luckiest+Guy|Patrick+Hand|Permanent+Marker|VT323" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/gijgo.css" >
+    <link rel="stylesheet" href="meuestilo.css">
+    <script src="js/bootstrap.min.js.map"></script>
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script src="js/bootstrap.js" ></script> 
+    <script src="js/jquery.validate.min.js" ></script> 
+    <script src="js/gijgo.min.js"> </script>
+     <script src="js/parallax.js"> </script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+       <link href="https://fonts.googleapis.com/css?family=Quicksand|Varela|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+#direita {
+  position: relative;
+}
+
+#items{
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+</style>
+    </head>
+
+
+<body>
+
+    <!-- banner com animaçao -->
+    <div class="col-lg-12" id="banner">
+    <img src="logo.png" id="gif"  class="center" height="200px">
+    </div>
+    
+    <!--menu-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;" id="menu">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Log <span class="sr-only">(current)</span></a>
+      </li>
+
+     
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Trabalhos
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="drop" >
+              <li><a class="dropdown-item" href="projetos.html">Portfolio</a></li>
+           <!-- Default dropright button -->
+            
+    <li class ="dropdown-item" id="direita">
+      <a href="#"  class="pinga"class="dropdown-item" data-toggle="dropdown" aria-labelledby="navbarDropdownMenuLink"  id="drop" style="text-decoration: none;">Projetos<span class="caret"></span><i class="material-icons" style="font-size:12px;">play_arrow</i></a>
+    <ul class="dropdown-menu" id="items">
+          
+            <li><a class="dropdown-item" href="variadas.html" data-target="variadas.html" id="dropitem">Ilustração Variada</a></li>
+            <li>   <a class="dropdown-item" href="kpop.html">    Kpop </a></li>  
+              <li>   <a class="dropdown-item" href="retratos.html">Retratos </a></li>
+                <li> <a class="dropdown-item" href="infantil.html">Ilustração Infantil </a></li>
+                 <li><a class="dropdown-item" href="bd.html">Banda Desenhada </a></li>
+                 <li> <a class="dropdown-item" href="https://super-tuga.000webhostapp.com/">Super Tuga </a></li>
+     
+                                  </ul>
+                              
+                          </li>
+</ul>
+</li>
+
+
+   <li class="nav-item">
+        <a class="nav-link" href="contactos.html">Sobre Mim</a>
+      </li>
+   
+</ul>
+</div>
+</nav>
+        <script>
+$(document).ready(function(){
+  $('.dropdown-item .pinga ').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+       
+    <!-- Conteudo do website-->
+    <div class="container" style="padding-top:30px;">
+        
+        <div class="row"  >
+
+        
+        <p style="text-align:Left;font-size:50px;  
+    font-family: 'Varela Round', sans-serif;
+color:#17A2B8;"> Projetos</p>
+        
+        
+     
+             
+<div class="card-deck" align="center" style="padding-top:30px; padding-bottom:30px;">
+           
+        
+
+  
+        <div class="card" style="max-width: 18rem;">
+             <a href="variadas.html" style="text-decoration: none;">
+   <img class="card-img-top" src="projects/13580646_920425594735212_4130334187842448780_o.jpg" alt="Card image cap">
+  <div class="card-body text-info">
+    <h5 class="card-title" id="title2"  style="color:#17A2B8;">Ilustração Variada</h5>
+    <p class="card-text" style="color:black;">Ilustrações de diferentes tipos. Estas ilustrações mostram meu range de habilidades utilizando vetor para ilustrar posters, conceito de personagens e paisagens.</p>
+                 </div></a>
+    </div>      
+             
+  
+    
+                     <div class="card " style="max-width: 18rem;">
+                         <a href="kpop.html" style="text-decoration: none;">
+   <img class="card-img-top" src="projects/wendy2.png" alt="Card image cap">
+  <div class="card-body text-info">
+    <h5 class="card-title" id="title2"  style="color:#17A2B8;">Kpop</h5>
+     <p class="card-text" style="color:black;">Estas ilustrações são propostas para merchandising de pop koreano feito da mesma forma que os meus outros retratos</p>
+       
+  </div>
+                               </a>
+</div>
+   
+   
+        <div class="card " style="max-width: 18rem;">
+           <a href="retratos.html" style="text-decoration: none;">
+   <img class="card-img-top" src="projects/jos.PNG" alt="Card image cap">
+  <div class="card-body text-info">
+    <h5 class="card-title" id="title2"  style="color:#17A2B8;">Retratos</h5>
+    <p class="card-text" style="color:black;">Estes retratos foram feitos através da minha interpretação e simplificação dos traços da foto do indivíduo que eu representei.
+      </p>  </div>
+            </a>
+                      </div>
+       <div class="card" style="max-width: 18rem;">
+           <a href="infantil.html" style="text-decoration: none;">
+   <img class="card-img-top" src="projects/proposta-03.png" alt="Card image cap">
+  <div class="card-body text-info">
+    <h5 class="card-title" id="title2"  style="color:#17A2B8;">Ilustração Infantil</h5>
+     <p class="card-text" style="color:black;">Ilustrações direcionadas para livros infantis. </p>
+  </div>
+           </a>    
+            </div>
+            </div>
+    </div>
+        <div class="row"  >
+
+    <div class="card-deck" align="center">
+    
+  
+         <div class="card" style="max-width: 18rem;">
+               <a href="bd.html" style="text-decoration: none;">
+   <img class="card-img-top" src="projects/pag%202.png" alt="Card image cap">
+  <div class="card-body text-info">
+      
+    <h5 class="card-title" id="title2"  style="color:#17A2B8;">Banda Desenhada</h5>
+     <p class="card-text" style="color:black;">Personagens e amostras dos meus projetos em banda desenhada incluindo o meu projeto pessoal “Super Tuga”.</p>
+  </div>
+             </a>
+            </div> 
+            <div class="card " style="max-width: 18rem;">
+                <a href="https://super-tuga.000webhostapp.com/"style="text-decoration: none;">
+   <img class="card-img-top" src="projects/cover.png" alt="Card image cap">
+  <div class="card-body text-info">
+    <h5 class="card-title" id="title2"  style="color:#17A2B8;">Super Tuga</h5>
+     <p class="card-text" style="color:black;">Website do meu projeto final de Licenciatura em Artes Plásticas e Multimédia, local de publicação das aventuras dos super heróis Portugueses</p>
+                    </div></a>
+            </div>  
+        
+        </div>
+    
+     </div>   
+  </div>
+        
+        
+
+    </body>
+    
+<footer style="padding-top:100px;">
+    <div id="footer"></div>
+    <script>
+  
+    $("#footer").load("footer.html");
+</script>
+    </footer>
+</html>

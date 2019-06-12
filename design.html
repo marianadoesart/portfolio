@@ -143,7 +143,7 @@ margin-right: 0; border-style:hidden;">
               <div class="responsive" style="float:left;">
   <div class="gallery">
       <img class="img-responsive" alt="<p>Poster para o Cosplay Art Festival 2019- Poster vencedor  <a style='color:white' target='_blank' rel='noopener noreferrer' href='http://associacaocosplay.pt/2019/06/12/ja-temos-o-cartaz-deste-ano/'>Associação de Cosplay</a></p> 
- <img "src="design/flyer.png" id="myImg1" width="1000" style="max-width: 100%;">
+ <img "src="design/poster_cosplay.png" id="myImg2" width="1000" style="max-width: 100%;">
     
     <div class="desc"id="texto">Poster para o Cosplay Art Festival 2019- Poster vencedor</div>
   </div>
@@ -208,7 +208,28 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script> 
-    
+     <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img2");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("modal")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script> 
     
         
     </body>

@@ -121,7 +121,7 @@ margin-right: 0; border-style:hidden;">
             <p id="texto">Bem vindo ao meu portfólio! Chamo-me Mariana e licenciei-me em Artes Plásticas e Multimédia, sou de Viseu e tenho um gosto enorme por banda desenhada e animação.
 O meu trabalho foca-se em ilustração infantil, banda desenhada e retratos. Eu crio a minha arte através de um processo de vetorização.</p>
 
-<p id="texto" class="curriculo" >    <a href=curriculo_mariana_marques.pdf style="color:#17A2B8; font-size:20px;" download>Currículo </a></p>
+<p id="texto" class="curriculo" data-toggle="modal" data-target="#exampleModal"> Currículo</p>
                   <h1 id="texto">Para mais informações:</h1>
          <p id="texto"style="color:#17A2B8;">mariana_henriquescm@outlook.com</p>
             
@@ -132,9 +132,34 @@ O meu trabalho foca-se em ilustração infantil, banda desenhada e retratos. Eu 
      
     
     </div>
+    <div class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><a href=curriculo_mariana_marques.pdf style="color:#17A2B8; font-size:20px;" download>Currículo </a></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     </body>
     <footer style="padding-top:100px;">
     <div id="footer"></div>
+        <script>
+            
+            $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+        </script>
     <script>
   
     $("#footer").load("footer.html");

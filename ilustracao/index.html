@@ -184,6 +184,15 @@ margin-right: 0; border-style:hidden;">
     <div class="desc"id="texto">Fanart de Fate/zero, Alexander, Gilgamesh, Lily Saber</div>
   </div>
 </div>
+        
+          <div class="responsive" style="float:left;">
+  <div class="gallery">
+      <img class="img-fluid"  alt="Inktober 2019 lista de @lua_de_carolina" src="ink.png" id="myImg9" width="1000" height="800">
+
+    <div class="desc"id="texto">Inktober 2019 lista de @lua_de_carolina</div>
+  </div>
+</div>
+        
           </div>
 
                     <!-- The Modal -->
@@ -372,7 +381,28 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 </script>
+ <script>
+// Get the modal
+var modal = document.getElementById('myModal');
 
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg9');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("modal")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
     </body>
 
 <footer style="padding-top:100px;">

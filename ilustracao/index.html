@@ -199,7 +199,7 @@ margin-right: 0; border-style:hidden;">
             
 <div class="responsive" style="float:left;">
   <div class="gallery">
-      <img  alt="Bruxa Ruiva" src="gingerwitch.png" id="myImg10"  width="1000" height="800">
+      <img  alt="Bruxa Ruiva" src="../infantil/gingerwitch.png" id="myImg10"  width="1000" height="800">
 
     <div class="desc"id="texto">Bruxa Ruiva</div>
   </div>
@@ -208,7 +208,7 @@ margin-right: 0; border-style:hidden;">
 
   <div class="responsive" style="float:left;">
   <div class="gallery">
-      <img alt="Ilustração de “Énéris, la princesse à la queue de poisson” – Josette Marie Chambre Madeira Fróis” para “Contos em linguas estrangeiras”" src="ilustra_2.png" id="myImg11" width="1000" height="800">
+      <img alt="Ilustração de “Énéris, la princesse à la queue de poisson” – Josette Marie Chambre Madeira Fróis” para “Contos em linguas estrangeiras”" src="../infantil/ilustra_2.png" id="myImg11" width="1000" height="800">
 
     <div class="desc"id="texto">Ilustração de “Énéris, la princesse à la queue de poisson” – Josette Marie Chambre Madeira Fróis” para “Contos em linguas estrangeiras”</div>
   </div>
@@ -217,7 +217,7 @@ margin-right: 0; border-style:hidden;">
 
   <div class="responsive" style="float:left;">
   <div class="gallery">
-      <img alt="Proposta para Conto Infantil página única" src="proposta-03.png" id="myImg12"  width="1000" height="800">
+      <img alt="Proposta para Conto Infantil página única" src="../infantil/proposta-03.png" id="myImg12"  width="1000" height="800">
 
     <div class="desc"id="texto">Proposta para Conto Infantil página única</div>
   </div>
@@ -225,7 +225,7 @@ margin-right: 0; border-style:hidden;">
 
      <div class="responsive" style="float:left;">
   <div class="gallery">
-      <img alt="Proposta para conto Infantil página única" src="proposta-04.png" id="myImg13"  width="000" height="800">
+      <img alt="Proposta para conto Infantil página única" src="../infantil/proposta-04.png" id="myImg13"  width="000" height="800">
 
     <div class="desc"id="texto">Proposta para Conto Infantil página única</div>
   </div>
@@ -556,6 +556,28 @@ var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg14');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("modal")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+                <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg15');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){

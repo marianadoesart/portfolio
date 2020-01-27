@@ -4,7 +4,7 @@
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+.modal-hover-opacity:hover {opacity: 0.7;}
 
 .jumbotron {
 background: url("banner.png") no-repeat center center;

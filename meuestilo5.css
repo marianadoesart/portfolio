@@ -8,7 +8,7 @@
 
 .jumbotron {
 background: url("banner.png") no-repeat center center;
-    background-size:cover;
+    background-size:350px;
 
 }
 #menu{
@@ -139,6 +139,11 @@ max-height: 86%;
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
+    .jumbotron {
+background: url("banner.png") no-repeat center center;
+    background-size:200px;
+
+}
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -153,4 +158,10 @@ max-height: 86%;
     flex: 100%;
     max-width: 100%;
   }
+    
+        .jumbotron {
+background: url("banner.png") no-repeat center center;
+    background-size:100px;
+
+}
 }

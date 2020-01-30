@@ -141,7 +141,7 @@ max-height: 86%;
 @media screen and (max-width: 800px) {
     .jumbotron {
 background: url("banner.png") no-repeat center center;
-    background-size:300px;
+    background-size:400px;
 
 }
   .column {
@@ -161,7 +161,7 @@ background: url("banner.png") no-repeat center center;
     
         .jumbotron {
 background: url("banner.png") no-repeat center center;
-    background-size:250px;
+    background-size:300px;
 
 }
 }

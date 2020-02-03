@@ -21,7 +21,7 @@ background: url("banner.png") no-repeat center center;
 
 
 }
-
+.fa: hover{opacity:0.5;)
 @import url('https://fonts.googleapis.com/css?family=Raleway:500,600&display=swap');
 #texto{
 font-family:'Raleway', sans-serif;

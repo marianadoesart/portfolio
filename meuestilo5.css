@@ -149,6 +149,12 @@ background: url("banner.png") no-repeat center center;
     flex: 50%;
     max-width: 50%;
   }
+    #texto{
+font-family:'Raleway', sans-serif;
+font-weight: 300;
+font-size:30px;
+
+}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -157,7 +163,12 @@ background: url("banner.png") no-repeat center center;
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
-  }
+  }    #texto{
+font-family:'Raleway', sans-serif;
+font-weight: 300;
+font-size:20px;
+
+}
     
         .jumbotron {
 background: url("banner.png") no-repeat center center;

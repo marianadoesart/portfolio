@@ -8,7 +8,7 @@
 
 .jumbotron {
 background: url("logo.png") no-repeat center center;
-    background-size:500px;
+   background-size:cover;
 
 }
 #menu{

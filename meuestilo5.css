@@ -21,9 +21,9 @@ background: url("logo.png") no-repeat center center;
 
 
 }
-.fa fa-linkedin-square: hover{opacity:0.5;}
+#fa: hover{opacity:0.5;}
 
-.fa fa-instagram: hover{opacity:0.5;}
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:500,600&display=swap');
 #texto{
 font-family:'Raleway', sans-serif;
